@@ -1,0 +1,13 @@
+.page-container {
+    display: flex; /* Use flexbox for layout */
+    height: 90vh; /* Full height of the viewport */
+}
+
+
+.content {
+    
+    padding: 20px; /* Padding for the content area */
+    flex-grow: 1; /* Allow content to grow */
+    background-color: #fff; /* Background color for content */
+ 
+}

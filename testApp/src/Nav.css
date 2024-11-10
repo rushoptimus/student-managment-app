@@ -1,0 +1,30 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    background-color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+   
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: blue;
+}
+
+.navbar-icons {
+    display: flex;
+    gap: 2rem; /* Space between icons */
+}
+
+.icon {
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: #333; /* Icon color */
+}
+
+.icon:hover {
+    color: #1177e4; /* Change color on hover */
+}
